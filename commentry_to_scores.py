@@ -162,7 +162,7 @@ def eco(over,run): # getting economy
 	return round(run/over,2)
 
 def scorecard():
-	with open(r"teams.txt",'r') as f:
+	with open(r'teams.txt','r') as f:
 		line=f.readline()
 		try:
 			temp=line.split(":") # splitting the team name from palyers list
